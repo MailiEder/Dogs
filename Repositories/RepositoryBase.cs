@@ -13,7 +13,7 @@ namespace Dogs.Repositories
 
         public RepositoryBase()
         {
-            _connectionString = String.Format("Server = {0}; Port = {1}; User Id = {2}; Password = {3}; Database = {4};", "localhost", "5432", "postgres", "WwkWhwdFnsa", "DogDb");
+            _connectionString = String.Format("Server = {0}; Port = {1}; User Id = {2}; Password = {3}; Database = {4};", "localhost", "5432", "postgres", "yourpassword", "DogDb");
         }
 
         protected NpgsqlConnection GetNpgsqlConnection()
